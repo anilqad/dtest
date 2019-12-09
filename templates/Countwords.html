@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count words In file</title>
+</head>
+<body>
+
+<h1>Please enter the your content</h1>
+
+<a href="{% url 'about' %}">Back To About-Us</a>
+
+<form action="{ % url 'count' %}">
+    <textarea name="message" rows="25" cols="45"></textarea>
+    <br>
+    <input type="submit" value="Count Now"/>
+</form>
+</body>
+</html>

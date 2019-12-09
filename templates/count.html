@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result page</title>
+</head>
+<body>
+<h>Result Page</h>
+<h2> Your Text Entered </h2>
+{{ mess }}
+<h3>This text contains.{{length}}words</h3>
+<b>All words count</b>
+<ol type="1">
+{% for key, value in abc.items %}
+    <li>{{ key }}:{{ value }}</li>
+{% endfor %}
+</ol>
+</body>
+</html>
